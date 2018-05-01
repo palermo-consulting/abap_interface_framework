@@ -1,0 +1,43 @@
+001	Period	6	6
+003	File Options	12	12
+004	Save to PC	10	10
+005	Save to Server	14	14
+011	Archive Folder	14	14
+012	Current period (all pay areas)	30	30
+013	Other period (by payroll area)	30	30
+014	Payroll area	12	12
+015	Period	6	6
+E01	Employee does not have Tax ID: 000000000	40	40
+E02	Locking user:	13	13
+E03	Employee missing WFN position ID (Infotype 185)	47	47
+E04	Employee missing WFN file number	32	32
+E05	Employee missing supervisor ID (Infotype 1)	43	43
+E06	Supervisor missing WFN position ID	34	34
+E07	Employee missing standard hours (Infotype 7/8)	46	46
+E08	Employee missing rate amount (Infotype 8)	41	41
+E09	Pay change action without actual pay change	43	43
+E10	Termination missing last day paid (date type 08)	48	48
+E11	Termination missing last day worked (date type 07)	50	50
+E12	Full rate (0) cannot be assigned to employee in CA10/CA70.	58	58
+E13	Action type is invalid for Canadian employee:	45	46
+S01	No. of personnel numbers selected	33	33
+S02	Number of rejected personnel nos	32	32
+S03	Number of personnel nos in export file	38	38
+S04	Export file	11	11
+S05	Number of exported records	26	26
+T01	*-------------------------------------------------------------------------*	75	75
+T02	Personnel No.:	14	14
+T03	Error :	7	7
+T04	Warning :	9	9
+W01	Employee missing adjusted service date	38	38
+W02	Employee missing marital status	31	31
+W03	Employee missing language	25	25
+W04	Employee missing gender	23	23
+W05	New hire/rehire missing permanent address	41	41
+W06	Employee missing work email	27	27
+W07	New hire/rehire missing bank details	36	36
+W08	Tax assignment missing (Infotype 0461)	38	38
+W09	Provincial tax data missing (Infotype 0462)	43	43
+W10	Federal tax data missing (Infotype 0463)	40	40
+W11	Addition tax data missing (Infotype 0464)	41	41
+W12	No time-off policy exists	25	25

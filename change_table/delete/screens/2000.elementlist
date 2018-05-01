@@ -1,0 +1,9 @@
+General attributes
+------------------
+* Only this tab is necessary
+DELETE_TABLE	CCtrl	1	1	113	113	24
+OK_CODE	OK	0	0	20	20	1	 OK
+* This is a custom control called DELETE_TABLE with:
+* Def Length = 113
+* Vis Length = 113
+* Height = 24

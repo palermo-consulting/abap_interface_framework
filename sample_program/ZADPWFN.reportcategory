@@ -1,0 +1,24 @@
+Report category      ZADPWFN  Outbound to ADP Workforce Now
+Last Changed by      JPALERMO
+Changed On           04/18/2018
+X Data selection period = Employee selection period
+Data Selection Period = Inteval
+Person Selection Period = No entry
+Payroll Area/Period/Year = No entry
+Type     SAP
+Name     PNPCE_DEFAULT
+
+Allowable selection criteria
+----------------------------
+Select Option	Text	1st Page
+PNPABKRS	Payroll area	X
+PNPBTRTL	Personnel subarea	X
+PNPBUKRS	Company Code	X
+PNPPERNR	Personnel Number	X
+PNPPERSG	Employee group	X
+PNPPERSK	Employee subgroup	X
+PNPWERKS	Personnel area	X
+
+
+
+

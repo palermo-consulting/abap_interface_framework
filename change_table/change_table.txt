@@ -1,1 +1,22 @@
+Table Name: ZHR_PCL2
+Short Description: HR Cluster 2
 
+Delivery and Maintenance
+------------------------
+Delivery Class                    A Application table (master and transaction data)
+Data Browser/Table View Maint.    Display/Maintenance Allowed with Restrictions.
+
+Fields
+------
+Field	Key	Initial Values	Data element	Data Type	Length	Decimals	Short Description
+CLIENT	X	X	MANDT	CLNT	3	0	Client
+RELID	X	X	RELID_PCL2	CHAR	2	0	Area identification on import/export database PCL2
+SRTFD	X	X	PCLKEY	CHAR	40	0	PCLx key
+SRTF2	X	X	PCLSRTFD	INT4	10	0	Sort field for PCLx (dup.key)
+HISTO			HISTO	CHAR	1	0	Historical Record Flag
+AEDTM			AEDAT	DATS	8	0	Changed On
+UNAME			UNAME	CHAR	12	0	User Name
+PGMID			OLD_PROG	CHAR	8	0	ABAP: Program Name
+VERSN			PVRSN	CHAR	2	0	Version in cluster files
+CLUSTR			PCLCLUSTR	INT2	5	0	Cluster for PCLx
+CLUSTD			PCLDATA	LRAW	3900	0	VARC(3916) for PTXT
